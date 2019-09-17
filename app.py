@@ -4,8 +4,6 @@ from nltk import word_tokenize, pos_tag, ne_chunk
 from nltk import Tree
 import pandas as pd
 import csv
-import nltk
-nltk.download()
 
 
 app = Flask(__name__)
